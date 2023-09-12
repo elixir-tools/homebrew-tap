@@ -5,6 +5,12 @@ class NextLs < Formula
   sha256 "1cf49f3b6ff50935df942680385fa5a8a2ec80450810279cebf911b9e4237f0f"
   license "MIT"
 
+  bottle do
+    root_url "https://github.com/elixir-tools/homebrew-tap/releases/download/next-ls-0.10.3"
+    sha256 cellar: :any_skip_relocation, ventura:      "b2de4ebafeeff0ed0a17981c6df3bd6d191c39ab49edbb28a1de8ca00d9320b9"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "797d99a91f6d50712ca3da0dd9d4a0cf48d86744bc666585c81f8b46ccb4da21"
+  end
+
   depends_on "elixir" => :build
   depends_on "xz" => :build
   depends_on "erlang"
