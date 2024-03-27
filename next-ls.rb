@@ -6,10 +6,10 @@ class NextLs < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/elixir-tools/homebrew-tap/releases/download/next-ls-0.20.1"
-    sha256 cellar: :any_skip_relocation, arm64_sonoma: "f80b7945a576c0c0b9f85b5ee54fc15966a6faecb8b213f03cd2a3af92080e6a"
-    sha256 cellar: :any_skip_relocation, ventura:      "a7551279ecffd7b8104651a55fbc1e9cf3100b92bda27929f85de9a3d36cda26"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "b9d6dd4f0b5d6f268025d681b2fb979ad15330e4c562e78008575c6246977c2b"
+    root_url "https://github.com/elixir-tools/homebrew-tap/releases/download/next-ls-0.20.2"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "01cb8dbd072b14f1659ec09c786e029c628c56f754c757e2f99cec96de356e74"
+    sha256 cellar: :any_skip_relocation, ventura:      "5bdefae8fa4c8b25cd718333d975c49ad826f0fa50c8237a5594d3ac0c285c06"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e87e24324584672f3f1f00cf9c5e9622e147e0619d9cc800ee9fc80009f81ddd"
   end
 
   depends_on "elixir" => :build
