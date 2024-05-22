@@ -1,8 +1,8 @@
 class NextLs < Formula
   desc "Language server for Elixir that just works"
   homepage "https://www.elixir-tools.dev/next-ls"
-  url "https://github.com/elixir-tools/next-ls/archive/refs/tags/v0.22.4.tar.gz"
-  sha256 "bcb9da3ce247e8fc8b7f5beb73dcc61405292165b685d3b1ab4713aab496bce1"
+  url "https://github.com/elixir-tools/next-ls/archive/refs/tags/v0.22.5.tar.gz"
+  sha256 "c4f81f1b8764ebe949ef17011f325ad39af99954a33499b92a0581ac381103bf"
   license "MIT"
 
   bottle do
@@ -68,6 +68,7 @@ class NextLs < Formula
 
     ENV["BURRITO_TARGET"] = target
     ENV["MIX_ENV"] = "prod"
+    ENV["NEXTLS_RELEASE_MODE"] = "burrito"
     system "mix", "deps.get"
     system "mix", "release"
 
