@@ -51,4 +51,4 @@ jobs:
     env:
       GH_TOKEN: ${{ secrets.PAT }}
     steps:
-      - run: gh pr edit ${{ github.event.number }} --add-label="pr-pull" --repo $GITHUB_REPOSITORY
+      - run: gh pr edit ${{ github.event.number }} --add-label="pr-pull" --repo "$GITHUB_REPOSITORY"
