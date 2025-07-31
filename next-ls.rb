@@ -1,8 +1,8 @@
 class NextLs < Formula
   desc "Language server for Elixir that just works"
   homepage "https://www.elixir-tools.dev/next-ls"
-  url "https://github.com/elixir-tools/next-ls/archive/refs/tags/v0.23.3.tar.gz"
-  sha256 "9f3ce80f665b09ce3c8ffb25eceddf22056a7189c4e22281687eec86f4d965b0"
+  url "https://github.com/elixir-tools/next-ls/archive/refs/tags/v0.23.4.tar.gz"
+  sha256 "7bcc365e2a4f64e874bba5344a923ef5655b2de367dcda161d3f419334fa8403"
   license "MIT"
 
   bottle do
